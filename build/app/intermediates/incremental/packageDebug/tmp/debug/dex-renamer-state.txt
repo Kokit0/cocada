@@ -1,0 +1,4 @@
+#Sat Apr 04 13:15:50 EEST 2020
+base.0=/home/rodolfoarv/Documents/Kokito/maracaibo/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
