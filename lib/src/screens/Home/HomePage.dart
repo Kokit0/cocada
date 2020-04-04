@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruithero/src/screens/LoginScreen.dart';
+import 'package:fruithero/src/screens/SignUpScreen.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -421,7 +423,7 @@ class _HomePageState extends State<HomePage>
         child: PageView(
           controller: _controller,
           physics: new AlwaysScrollableScrollPhysics(),
-          children: <Widget>[LoginScreen(), HomePage(), SignupPage()],
+          children: <Widget>[LoginScreen(), HomePage(), SignUpScreen()],
           scrollDirection: Axis.horizontal,
         ));
   }

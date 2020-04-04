@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fruithero/src/animations/FadeAnimation.dart';
+import 'package:fruithero/src/screens/Dashboard.dart';
 
 class LoginScreen extends StatelessWidget {
   @override
@@ -132,9 +133,19 @@ class LoginScreen extends StatelessWidget {
                             )
                         ),
                         child: Center(
-                          child: Text("Login", style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold),),
+                          child: FlatButton(
+                            child: Text("Log in", style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                            ),
+                            splashColor: Colors.blueAccent,
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => Dashboard()),
+                              );
+                            },
+                          )
                         ),
                       )),
                       SizedBox(height: 70,),
