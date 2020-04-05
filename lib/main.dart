@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fruithero/src/screens/Dashboard.dart';
-import 'package:fruithero/src/screens/Home/HomePage.dart';
+import 'package:fruithero/src/screens/InitialScreen.dart';
 
 
 void main() => runApp(MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: InitialScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

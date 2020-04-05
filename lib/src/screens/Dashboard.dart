@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fruithero/src/screens/Home/Cart.dart';
+import 'package:fruithero/src/screens/Home/Settings.dart';
 import 'package:fruithero/src/screens/Home/Tracking.dart';
-import 'package:fruithero/src/screens/HomeScreen.dart';
+import 'package:fruithero/src/screens/Home/HomeScreen.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
 
@@ -45,11 +46,12 @@ class _DashBoardState extends State<Dashboard> {
           HomeScreen(),
           Tracking(),
           Cart(),
-          Container(color: Colors.blue,),
+          Settings(),
           ],
         )
       ),
       bottomNavigationBar: BottomNavyBar(
+
         selectedIndex: _currentIndex,
         showElevation: true,
         itemCornerRadius: 8,

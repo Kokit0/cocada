@@ -72,8 +72,8 @@ class RecipeDetails extends StatelessWidget {
                                   fontSize: 22.0),
                             ),
                             Container(
-                              height: 40.0,
-                              width: 100.0,
+                              height: 50.0,
+                              width: 120.0,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(12.0),
                                 color: Color(0xFF20D3D2),
@@ -127,24 +127,16 @@ class RecipeDetails extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          _buildIngredientRow('Strawberries',
-                              'assets/strawberries.png', '400g', screenWidth),
+                          _buildIngredientRow('Tacos',
+                              'assets/plate1.png', 'Prot 20g, Carb 5g', screenWidth),
                           SizedBox(height: 5.0),
                           Container(
                             height: 0.5,
                             color: Colors.grey.withOpacity(0.2),
                           ),
                           SizedBox(height: 5.0),
-                          _buildIngredientRow('Blueberries',
-                              'assets/blueberries.png', '200g', screenWidth),
-                          SizedBox(height: 5.0),
-                          Container(
-                            height: 0.5,
-                            color: Colors.grey.withOpacity(0.2),
-                          ),
-                          SizedBox(height: 5.0),
-                          _buildIngredientRow(
-                              'Kiwi', 'assets/kiwi.png', '2', screenWidth),
+                          _buildIngredientRow('Arepas',
+                              'assets/plate2.png', 'Prot 20g, Carb 5g', screenWidth),
                           SizedBox(height: 5.0),
                           Container(
                             height: 0.5,
@@ -152,7 +144,15 @@ class RecipeDetails extends StatelessWidget {
                           ),
                           SizedBox(height: 5.0),
                           _buildIngredientRow(
-                              'Mango', 'assets/mango.png', '1', screenWidth),
+                              'Salad', 'assets/plate3.png', 'Prot 20g, Carb 5g', screenWidth),
+                          SizedBox(height: 5.0),
+                          Container(
+                            height: 0.5,
+                            color: Colors.grey.withOpacity(0.2),
+                          ),
+                          SizedBox(height: 5.0),
+                          _buildIngredientRow(
+                              'Burrito', 'assets/plate4.png', 'Prot 20g, Carb 5g', screenWidth),
                           SizedBox(height: 5.0),
                           Container(
                             height: 0.5,
@@ -177,7 +177,7 @@ class RecipeDetails extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Container(
-              width: 175.0,
+              width: 150.0,
               child: Row(
                 children: <Widget>[
                   Container(
@@ -201,6 +201,15 @@ class RecipeDetails extends StatelessWidget {
                 ],
               )
           ),
+
+
+          Icon(
+            Icons.add,
+            color: Color(0xFF7A9BEE),
+            size: 20.0,
+          ),
+          Text('0'),
+          SizedBox(width: 20.0),
           Text(
             quantity,
             style: TextStyle(

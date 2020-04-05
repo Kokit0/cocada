@@ -5,29 +5,32 @@ INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/A
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a5f88dd1d4950a9b557803bb2f91a3ce/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a01d33bfed3262b95ce7de6b3ac39b19/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c05fa33fbe526129d33df9bfaa503881/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b8f00f0e40e3ffc92f49723e9b907934/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3b1ae73c9698afd85df1e75766160f3f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/99d8e0ea172d157ac586aeca98ccdd17/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a3ca4bd3cfa22e362abcbb57ff7b1273/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e4a40ba0d5a8d7e64b25ef79c0dbc850/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a72b56f50c94dceef5bd4d58e83cbfdd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0466bf6d5336e953149273fc65920f80/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ef7c9603f0fdc18c6039599fc475e08c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8ef111e56f00b73b55748c6350ff37b0/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c7fd16428a6027ace851ca630f58b295/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/544b6b04ee77e4a7b2b2b48e9da16c90/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2934349300490db039284e881156ec04/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0bc9355fd22105aa41802b7b71f89e3a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/343de537e5b90d3dfcf0446d3c62591b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0afa324eee3ef43580aead05a88da2ba/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/16fd81fdf5475e86a5dfd5478f8e56e5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ec8b0d3895b0d6e4a7e3e6279b42fa52/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/37b7850e9996717c78923ce41c54efd9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/d4db8ecedfd0715acf5b3e9181e7b22b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/42ebbd26e4aafb51d569ba99d85243ed/AndroidManifest.xml:17:1-22:12
+MERGED from [:path_provider] /home/rodolfoarv/Documents/Kokito/maracaibo/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_macos] /home/rodolfoarv/Documents/Kokito/maracaibo/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/rodolfoarv/Documents/Kokito/maracaibo/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b31befe58616695b3c7976209a42dec6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/3264d450d46a4c6ddbee1e3c1dd6a92a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2132205fc92a2d093d6f763448b4a151/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/428489d5d8c5f5edaaaf0dc1a620f525/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/17ae5887f5d8526ab600d3fb3e8ffb3d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d198b28db99d569c69f2ed95ab4b74c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9055f55669dfbff61765f160aab79d80/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/539d83ef0520b4d037cfa92c2fd821cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/dabbf84538579abd4ba4a9e375824ac6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d21a3dbc2b0dfac0eb03432ea3019a07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/71e9627263f4f5e6d87102cab35dc24d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af9659d0a7312afec5736b8ffb8d3e52/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e86e561e6855c4aec5b9ef2d84911dff/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2263c4236c0ddbc5d9a80d4710f49929/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bd24cf47a9c590663396c5bfe0827aed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c44debb3722bff19345bfde46ba517b5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2816b5b6cc3b246854bf7911a8b02d7c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2ba17157213a1c4977ebe19aa57ec3e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/dbb3122982a82e2b091c231ede54d245/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0192c24b4b6b3f0e83cbefeff610045b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6367ffe74f687122fe48975ab2006c34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a24135d37fb3af3bd04f04c55c0450b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b4b1ce99e0190bdc3dec4323857bd448/AndroidManifest.xml:17:1-22:12
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -47,12 +50,12 @@ INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/debug/
 		ADDED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml:9:5-32:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8ef111e56f00b73b55748c6350ff37b0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8ef111e56f00b73b55748c6350ff37b0/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0afa324eee3ef43580aead05a88da2ba/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0afa324eee3ef43580aead05a88da2ba/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af9659d0a7312afec5736b8ffb8d3e52/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af9659d0a7312afec5736b8ffb8d3e52/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2ba17157213a1c4977ebe19aa57ec3e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2ba17157213a1c4977ebe19aa57ec3e/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8ef111e56f00b73b55748c6350ff37b0/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af9659d0a7312afec5736b8ffb8d3e52/AndroidManifest.xml:22:18-91
 	android:label
 		ADDED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml:11:9-34
 	android:icon
@@ -93,52 +96,58 @@ uses-sdk
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-fragment:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a5f88dd1d4950a9b557803bb2f91a3ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a5f88dd1d4950a9b557803bb2f91a3ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a01d33bfed3262b95ce7de6b3ac39b19/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a01d33bfed3262b95ce7de6b3ac39b19/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c05fa33fbe526129d33df9bfaa503881/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c05fa33fbe526129d33df9bfaa503881/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b8f00f0e40e3ffc92f49723e9b907934/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b8f00f0e40e3ffc92f49723e9b907934/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3b1ae73c9698afd85df1e75766160f3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3b1ae73c9698afd85df1e75766160f3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/99d8e0ea172d157ac586aeca98ccdd17/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/99d8e0ea172d157ac586aeca98ccdd17/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a3ca4bd3cfa22e362abcbb57ff7b1273/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a3ca4bd3cfa22e362abcbb57ff7b1273/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e4a40ba0d5a8d7e64b25ef79c0dbc850/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/e4a40ba0d5a8d7e64b25ef79c0dbc850/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a72b56f50c94dceef5bd4d58e83cbfdd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a72b56f50c94dceef5bd4d58e83cbfdd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0466bf6d5336e953149273fc65920f80/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0466bf6d5336e953149273fc65920f80/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ef7c9603f0fdc18c6039599fc475e08c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ef7c9603f0fdc18c6039599fc475e08c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8ef111e56f00b73b55748c6350ff37b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8ef111e56f00b73b55748c6350ff37b0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c7fd16428a6027ace851ca630f58b295/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c7fd16428a6027ace851ca630f58b295/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/544b6b04ee77e4a7b2b2b48e9da16c90/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/544b6b04ee77e4a7b2b2b48e9da16c90/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2934349300490db039284e881156ec04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2934349300490db039284e881156ec04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0bc9355fd22105aa41802b7b71f89e3a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0bc9355fd22105aa41802b7b71f89e3a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/343de537e5b90d3dfcf0446d3c62591b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/343de537e5b90d3dfcf0446d3c62591b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0afa324eee3ef43580aead05a88da2ba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0afa324eee3ef43580aead05a88da2ba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/16fd81fdf5475e86a5dfd5478f8e56e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/16fd81fdf5475e86a5dfd5478f8e56e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ec8b0d3895b0d6e4a7e3e6279b42fa52/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ec8b0d3895b0d6e4a7e3e6279b42fa52/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/37b7850e9996717c78923ce41c54efd9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/37b7850e9996717c78923ce41c54efd9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/d4db8ecedfd0715acf5b3e9181e7b22b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/d4db8ecedfd0715acf5b3e9181e7b22b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/42ebbd26e4aafb51d569ba99d85243ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/42ebbd26e4aafb51d569ba99d85243ed/AndroidManifest.xml:20:5-44
+MERGED from [:path_provider] /home/rodolfoarv/Documents/Kokito/maracaibo/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/rodolfoarv/Documents/Kokito/maracaibo/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /home/rodolfoarv/Documents/Kokito/maracaibo/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /home/rodolfoarv/Documents/Kokito/maracaibo/build/path_provider_macos/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/rodolfoarv/Documents/Kokito/maracaibo/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/rodolfoarv/Documents/Kokito/maracaibo/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b31befe58616695b3c7976209a42dec6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b31befe58616695b3c7976209a42dec6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/3264d450d46a4c6ddbee1e3c1dd6a92a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/3264d450d46a4c6ddbee1e3c1dd6a92a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2132205fc92a2d093d6f763448b4a151/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/2132205fc92a2d093d6f763448b4a151/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/428489d5d8c5f5edaaaf0dc1a620f525/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/428489d5d8c5f5edaaaf0dc1a620f525/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/17ae5887f5d8526ab600d3fb3e8ffb3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/17ae5887f5d8526ab600d3fb3e8ffb3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d198b28db99d569c69f2ed95ab4b74c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d198b28db99d569c69f2ed95ab4b74c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9055f55669dfbff61765f160aab79d80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9055f55669dfbff61765f160aab79d80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/539d83ef0520b4d037cfa92c2fd821cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/539d83ef0520b4d037cfa92c2fd821cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/dabbf84538579abd4ba4a9e375824ac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/dabbf84538579abd4ba4a9e375824ac6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d21a3dbc2b0dfac0eb03432ea3019a07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d21a3dbc2b0dfac0eb03432ea3019a07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/71e9627263f4f5e6d87102cab35dc24d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/71e9627263f4f5e6d87102cab35dc24d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af9659d0a7312afec5736b8ffb8d3e52/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af9659d0a7312afec5736b8ffb8d3e52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e86e561e6855c4aec5b9ef2d84911dff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e86e561e6855c4aec5b9ef2d84911dff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2263c4236c0ddbc5d9a80d4710f49929/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2263c4236c0ddbc5d9a80d4710f49929/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bd24cf47a9c590663396c5bfe0827aed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/bd24cf47a9c590663396c5bfe0827aed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c44debb3722bff19345bfde46ba517b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c44debb3722bff19345bfde46ba517b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2816b5b6cc3b246854bf7911a8b02d7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2816b5b6cc3b246854bf7911a8b02d7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2ba17157213a1c4977ebe19aa57ec3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a2ba17157213a1c4977ebe19aa57ec3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/dbb3122982a82e2b091c231ede54d245/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/dbb3122982a82e2b091c231ede54d245/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0192c24b4b6b3f0e83cbefeff610045b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0192c24b4b6b3f0e83cbefeff610045b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6367ffe74f687122fe48975ab2006c34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6367ffe74f687122fe48975ab2006c34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a24135d37fb3af3bd04f04c55c0450b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a24135d37fb3af3bd04f04c55c0450b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b4b1ce99e0190bdc3dec4323857bd448/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/rodolfoarv/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b4b1ce99e0190bdc3dec4323857bd448/AndroidManifest.xml:20:5-44
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/rodolfoarv/Documents/Kokito/maracaibo/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
