@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:fruithero/src/screens/Dashboard.dart';
-import 'package:fruithero/src/screens/InitialScreen.dart';
+import 'pages/home/home.dart';
+void main() => runApp(Kokito());
 
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class Kokito extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: InitialScreen(),
-      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(
+       
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(title: 'Kokito'),
     );
   }
 }
