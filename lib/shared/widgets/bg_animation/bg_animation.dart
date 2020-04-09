@@ -28,8 +28,8 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
     baseColor: Colors.green,
     spawnOpacity: 0.0,
     opacityChangeRate: 0.20,
-    minOpacity: 0.05,
-    maxOpacity: 0.1,
+    minOpacity: 0.1,
+    maxOpacity: 0.2,
     spawnMinSpeed: 5.0,
     spawnMaxSpeed: 10.0,
     spawnMinRadius: 8.0,
@@ -58,7 +58,19 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      body: AnimatedBackground(
+
+      body: 
+      SafeArea(
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.grey[800],
+            image: DecorationImage(
+              image: AssetImage('assets/imgs/bg/bg.jpg'),
+              fit: BoxFit.cover,
+              colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.6), BlendMode.dstATop),
+            )
+          ),
+          child: AnimatedBackground(
         behaviour: _behaviour = _buildBehaviour(),
         vsync: this,
         child: SingleChildScrollView(
@@ -67,6 +79,10 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
             child: _showSettings ? _buildSettings() : Container(),
           ),
         ),
+      ),
+         ),
+       
+      
       ),
     );
   }
@@ -398,7 +414,7 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
           decoration: BoxDecoration(
             border: Border.all(
               width: 1.0,
-              color: _image.image == image.image ? Colors.amber : Colors
+              color: _image.image == image.image ? Colors.transparent : Colors
                   .transparent,
             ),
           ),

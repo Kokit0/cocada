@@ -24,19 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-        backgroundColor: new Color.fromRGBO(50, 223, 215, 0.5),
-
-      // appBar: AppBar(
-      //   // Here we take the value from the MyHomePage object that was created by
-      //   // the App.build method, and use it to set our appbar title.
-      //   title: Text(widget.title),
-      // ),
-
-      // body: bgAnimatedPage(),
-
-      //  child: StacContainer (
-        //   child: bgAnimatedPage(),
-        // ),
+      backgroundColor: new Color.fromRGBO(50, 223, 215, 1),
 
       body: SafeArea(
         child: Stack(

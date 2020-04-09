@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'clipper.dart';
 
+import 'package:flutter_beautiful_popup/main.dart';
+
 class Login extends StatefulWidget {
   @override
   _LoginState createState() => _LoginState();
@@ -25,6 +27,7 @@ class _LoginState extends State<Login> {
 
     //GO logo widget
     Widget logo() {
+
       return Padding(
         padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.15),
         child: Container(
@@ -39,8 +42,8 @@ class _LoginState extends State<Login> {
                     decoration: BoxDecoration(
                       // Circulo del logo
                         shape: BoxShape.circle, color: Colors.white),
-                    width: 150,
-                    height: 150,
+                        width: 150,
+                        height: 150,
                   ),
                 ),
                 height: 154,
@@ -51,28 +54,6 @@ class _LoginState extends State<Login> {
                     child: Align(
                       child: Image.asset("assets/imgs/logo/app_logo.png"),
                     )),
-              ),
-              Positioned(
-                width: MediaQuery.of(context).size.width * 0.15,
-                height: MediaQuery.of(context).size.width * 0.15,
-                bottom: MediaQuery.of(context).size.height * 0.046,
-                right: MediaQuery.of(context).size.width * 0.22,
-                child: Container(
-                  decoration: BoxDecoration(
-                      // Círculo chiquitos
-                      shape: BoxShape.circle, color: Colors.red),
-                ),
-              ),
-              Positioned(
-                width: MediaQuery.of(context).size.width * 0.08,
-                height: MediaQuery.of(context).size.width * 0.08,
-                bottom: 0,
-                right: MediaQuery.of(context).size.width * 0.32,
-                child: Container(
-                  decoration: BoxDecoration(
-                    // Circulo más chiquito
-                      shape: BoxShape.circle, color: Colors.red),
-                ),
               ),
             ],
           ),
@@ -160,116 +141,136 @@ class _LoginState extends State<Login> {
     }
 
     void _loginSheet() {
-      _scaffoldKey.currentState.showBottomSheet<void>((BuildContext context) {
-        return DecoratedBox(
-          decoration: BoxDecoration(color: Theme.of(context).canvasColor),
-          child: ClipRRect(
-            borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(40.0),
-                topRight: Radius.circular(40.0)),
-            child: Container(
-              child: ListView(
-                children: <Widget>[
-                  Container(
-                    child: Stack(
-                      children: <Widget>[
-                        Positioned(
-                          left: 10,
-                          top: 10,
-                          child: IconButton(
-                            onPressed: () {
-                              Navigator.of(context).pop();
-                              _emailController.clear();
-                              _passwordController.clear();
-                            },
-                            icon: Icon(
-                              Icons.close,
-                              size: 30.0,
-                              color: Theme.of(context).primaryColor,
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
-                    height: 50,
-                    width: 50,
-                  ),
-                  SingleChildScrollView(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 140,
-                          child: Stack(
-                            children: <Widget>[
-                              Positioned(
-                                child: Align(
-                                  child: Container(
-                                    width: 130,
-                                    height: 130,
-                                    decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        color: Theme.of(context).primaryColor),
-                                  ),
-                                  alignment: Alignment.center,
-                                ),
-                              ),
-                              Positioned(
-                                child: Container(
-                                  child: Text(
-                                    "LOGIN",
-                                    style: TextStyle(
-                                      fontSize: 48,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white,
-                                    ),
-                                  ),
-                                  alignment: Alignment.center,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(bottom: 20, top: 60),
-                          child: _input(Icon(Icons.email), "EMAIL",
-                              _emailController, false),
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(bottom: 20),
-                          child: _input(Icon(Icons.lock), "PASSWORD",
-                              _passwordController, true),
-                        ),
-                        SizedBox(
-                          height: 20,
-                        ),
-                        Padding(
-                          padding: EdgeInsets.only(
-                              left: 20,
-                              right: 20,
-                              bottom: MediaQuery.of(context).viewInsets.bottom),
-                          child: Container(
-                            child: _button("LOGIN", Colors.white, primary,
-                                primary, Colors.white, _loginUser),
-                            height: 50,
-                            width: MediaQuery.of(context).size.width,
-                          ),
-                        ),
-                        SizedBox(
-                          height: 20,
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              height: MediaQuery.of(context).size.height / 1.1,
-              width: MediaQuery.of(context).size.width,
-              color: Colors.white,
-            ),
+      print ("AQUI ESTOY");
+
+      final popup = BeautifulPopup(
+        context: context,
+        template: TemplateGift,
+      );
+      popup.show(
+        title: 'Sign-in',
+        content: 'String or Widget',
+        actions: [
+          popup.button(
+            label: 'Close',
+            onPressed: Navigator.of(context).pop,
           ),
-        );
-      });
+        ],
+        // bool barrierDismissible = false,
+        // Widget close,
+      );
+
+
+      // _scaffoldKey.currentState.showBottomSheet<void>((BuildContext context) {
+      //   return DecoratedBox(
+      //     decoration: BoxDecoration(color: Theme.of(context).canvasColor),
+      //     child: ClipRRect(
+      //       borderRadius: BorderRadius.only(
+      //           topLeft: Radius.circular(40.0),
+      //           topRight: Radius.circular(40.0)),
+      //       child: Container(
+      //         child: ListView(
+      //           children: <Widget>[
+      //             Container(
+      //               child: Stack(
+      //                 children: <Widget>[
+      //                   Positioned(
+      //                     left: 10,
+      //                     top: 10,
+      //                     child: IconButton(
+      //                       onPressed: () {
+      //                         Navigator.of(context).pop();
+      //                         _emailController.clear();
+      //                         _passwordController.clear();
+      //                       },
+      //                       icon: Icon(
+      //                         Icons.close,
+      //                         size: 30.0,
+      //                         color: Theme.of(context).primaryColor,
+      //                       ),
+      //                     ),
+      //                   )
+      //                 ],
+      //               ),
+      //               height: 50,
+      //               width: 50,
+      //             ),
+      //             SingleChildScrollView(
+      //               child: Column(
+      //                 children: <Widget>[
+      //                   Container(
+      //                     width: MediaQuery.of(context).size.width,
+      //                     height: 140,
+      //                     child: Stack(
+      //                       children: <Widget>[
+      //                         Positioned(
+      //                           child: Align(
+      //                             child: Container(
+      //                               width: 130,
+      //                               height: 130,
+      //                               decoration: BoxDecoration(
+      //                                   shape: BoxShape.circle,
+      //                                   color: Theme.of(context).primaryColor),
+      //                             ),
+      //                             alignment: Alignment.center,
+      //                           ),
+      //                         ),
+      //                         Positioned(
+      //                           child: Container(
+      //                             child: Text(
+      //                               "LOGIN",
+      //                               style: TextStyle(
+      //                                 fontSize: 48,
+      //                                 fontWeight: FontWeight.bold,
+      //                                 color: Colors.white,
+      //                               ),
+      //                             ),
+      //                             alignment: Alignment.center,
+      //                           ),
+      //                         ),
+      //                       ],
+      //                     ),
+      //                   ),
+      //                   Padding(
+      //                     padding: EdgeInsets.only(bottom: 20, top: 60),
+      //                     child: _input(Icon(Icons.email), "EMAIL",
+      //                         _emailController, false),
+      //                   ),
+      //                   Padding(
+      //                     padding: EdgeInsets.only(bottom: 20),
+      //                     child: _input(Icon(Icons.lock), "PASSWORD",
+      //                         _passwordController, true),
+      //                   ),
+      //                   SizedBox(
+      //                     height: 20,
+      //                   ),
+      //                   Padding(
+      //                     padding: EdgeInsets.only(
+      //                         left: 20,
+      //                         right: 20,
+      //                         bottom: MediaQuery.of(context).viewInsets.bottom),
+      //                     child: Container(
+      //                       child: _button("LOGIN", Colors.white, primary,
+      //                           primary, Colors.white, _loginUser),
+      //                       height: 50,
+      //                       width: MediaQuery.of(context).size.width,
+      //                     ),
+      //                   ),
+      //                   SizedBox(
+      //                     height: 20,
+      //                   ),
+      //                 ],
+      //               ),
+      //             ),
+      //           ],
+      //         ),
+      //         height: MediaQuery.of(context).size.height / 1.1,
+      //         width: MediaQuery.of(context).size.width,
+      //         color: Colors.white,
+      //       ),
+      //     ),
+      //   );
+      // });
     }
 
     void _registerSheet() {
@@ -410,15 +411,16 @@ class _LoginState extends State<Login> {
     }
 
     return Scaffold(
+
         resizeToAvoidBottomPadding: false,
         key: _scaffoldKey,
-        backgroundColor: new Color.fromRGBO(255, 255, 255, 0.5),
+        backgroundColor: new Color.fromRGBO(255, 255, 255, 0.15),
         body: Column(
           children: <Widget>[
             logo(),
             Padding(
               child: Container(
-                child: _button("LOGIN", primary, Colors.white, Colors.white,
+                child: _button("Sign-in", primary, Colors.white, Colors.white,
                     primary, _loginSheet),
                 height: 50,
               ),
@@ -437,7 +439,7 @@ class _LoginState extends State<Login> {
                     borderRadius: new BorderRadius.circular(30.0),
                   ),
                   child: Text(
-                    "REGISTER",
+                    "Sign-out",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
@@ -456,7 +458,7 @@ class _LoginState extends State<Login> {
                 child: ClipPath(
                   child: Container(
                     // es este
-                    color: new Color.fromRGBO(5, 223, 215, 0.5),
+                    color: new Color.fromRGBO(5, 223, 215, 1),
                     height: 300,
                   ),
                   clipper: BottomWaveClipper(),
