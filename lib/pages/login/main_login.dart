@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'clipper.dart';
 
 import 'package:flutter_beautiful_popup/main.dart';
+import 'package:cocada/shared/widgets/pop_up/pop_up.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -143,21 +144,25 @@ class _LoginState extends State<Login> {
     void _loginSheet() {
       print ("AQUI ESTOY");
 
-      final popup = BeautifulPopup(
+        final popup = BeautifulPopup.customize(
         context: context,
-        template: TemplateGift,
+        build: (options) => TokitoPopup(options),
       );
       popup.show(
         title: 'Sign-in',
-        content: 'String or Widget',
+        content: Container(
+          color: Colors.white,
+          child: Text(
+              'This popup shows you how to customize your own BeautifulPopupTemplate.'),
+        ),
         actions: [
           popup.button(
-            label: 'Close',
-            onPressed: Navigator.of(context).pop,
+            label: 'Code',
+            onPressed: () {
+              print("YOLi");
+            },
           ),
         ],
-        // bool barrierDismissible = false,
-        // Widget close,
       );
 
 
