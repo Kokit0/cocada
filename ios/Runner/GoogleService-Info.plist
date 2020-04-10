@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>139743401339-01plme7l4o91vg6cn3mo4vgrb8aetdr5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.139743401339-01plme7l4o91vg6cn3mo4vgrb8aetdr5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDtqnl1aHOQRDZSu0RXx1r6CTLagntF0P0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>139743401339</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kokito.cocada</string>
+	<key>PROJECT_ID</key>
+	<string>tokito-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tokito-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:139743401339:ios:e85c529d282d2ebc75d9de</string>
+	<key>DATABASE_URL</key>
+	<string>https://tokito-app.firebaseio.com</string>
+</dict>
+</plist>
