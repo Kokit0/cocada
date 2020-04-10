@@ -152,6 +152,7 @@ class _LoginState extends State<Login> {
         title: 'Sign-in',
         content: Container(
           color: Colors.white,
+          
           child: Text(
               'This popup shows you how to customize your own BeautifulPopupTemplate.'),
         ),

@@ -6,9 +6,9 @@ class TokitoPopup extends BeautifulPopupTemplate {
   TokitoPopup(this.options) : super(options);
 
   @override
-  final illustrationKey = 'assets/imgs/logo/app_logo.png';
+  final illustrationKey = 'assets/imgs/bg/mytemplate.png';
   @override
-  Color primaryColor = Colors.white; // The default primary color of the template is Colors.black.
+  Color get primaryColor => options.primaryColor ?? Color(0xff000000); // The default primary color of the template is Colors.black.
   @override
   final maxWidth = 400; // In most situations, the value is the illustration size.
   @override
@@ -20,7 +20,6 @@ class TokitoPopup extends BeautifulPopupTemplate {
   @override
   get layout {
     return [
-      
       Positioned(
         child: background,
       ),
@@ -39,9 +38,7 @@ class TokitoPopup extends BeautifulPopupTemplate {
         bottom: percentW(10),
         left: percentW(10),
         right: percentW(10),
-        child: actions ?? Container(
-          color: Colors.white,
-        ),
+        child: actions ?? Container(),
       ),
     ];
   }
