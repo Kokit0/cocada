@@ -59,7 +59,7 @@ class _RegisterState extends State<Register> {
                               transform: Matrix4.translationValues(0.0, -25.0, 0.0),
 
                             child: Center(
-                              child: Text("Log in", style: TextStyle(
+                              child: Text("Sign up!", style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 40,
                                   fontWeight: FontWeight.bold),
