@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:cocada/shared/widgets/bg_animation/bg_animation.dart';
 import 'package:cocada/pages/login/main_login.dart';
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  final Function changePage;
+
+  MyHomePage({Key key, this.title,this.changePage}) : super(key: key);
 
   final String title;
 
@@ -34,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row (
                   children: <Widget>[
                   //  Expanded(flex: 1, child: Image.asset("assets/imgs/logo/app_logo.png")),
-                  Expanded(child: Login())
+                  Expanded(child: Login(changePage: widget.changePage))
                   ],
                 ),
             ),
