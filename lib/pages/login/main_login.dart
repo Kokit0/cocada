@@ -155,7 +155,7 @@ class _LoginState extends State<Login>  with TickerProviderStateMixin{
             logo(),
             Padding(
               child: Container(
-                child: _button("Sign-in", primary, Colors.white, Colors.white,
+                child: _button("Log in ", primary, Colors.white, Colors.white,
                     primary, _loginSheet),
                 height: 50,
               ),
@@ -174,7 +174,7 @@ class _LoginState extends State<Login>  with TickerProviderStateMixin{
                     borderRadius: new BorderRadius.circular(30.0),
                   ),
                   child: Text(
-                    "Sign-up",
+                    "Sign Up",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.white,

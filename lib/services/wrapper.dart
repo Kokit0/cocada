@@ -1,3 +1,4 @@
+import 'package:cocada/pages/dashboard/HomeController.dart';
 import 'package:cocada/models/user.dart';
 import 'package:cocada/pages/home/home.dart';
 import 'package:cocada/pages/login/authenticate.dart';
@@ -18,7 +19,7 @@ class Wrapper extends StatelessWidget {
     if (user == null){
       return Authenticate();
     } else {
-      return Dashboard();
+      return HomeController();
     }
     
   }
