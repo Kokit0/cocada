@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "139743401339",
+    "firebase_url": "https://tokito-app.firebaseio.com",
+    "project_id": "tokito-app",
+    "storage_bucket": "tokito-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139743401339:android:296e4366d089e2a475d9de",
+        "android_client_info": {
+          "package_name": "com.kokito.cocada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139743401339-amhlol7dglmfr45umder16mdqvldg6br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYWN5nQzqJNcG36CBa_9qD-HUIJvFHOGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139743401339-amhlol7dglmfr45umder16mdqvldg6br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
