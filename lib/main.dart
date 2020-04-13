@@ -23,10 +23,7 @@ class Kokito extends StatelessWidget {
           primarySwatch: Colors.red,
 
         ),
-        //  home: MyHomePage(title: 'Kokito'),
-        home:Wrapper(), // Usamos un Wrapper para saber si el usuario está logeado o no 
-          //  home: HomeScreen(),
-
+        home:Wrapper(), // Usamos un Wrapper para saber si el usuario está logeado o no
       ),
     );
   }

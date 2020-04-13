@@ -1,12 +1,10 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'details_page.dart';
 import 'Trending.dart';
-import '../../utils/restaurants.dart';
-import '../../utils/categories.dart';
-import '../../widgets/slide_item.dart';
-import '../../widgets/trending_item.dart';
+import 'utils/restaurants.dart';
+import 'widgets/slide_item.dart';
+import 'utils/categories.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

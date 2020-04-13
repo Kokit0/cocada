@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../utils/const.dart';
-import '../../utils/restaurants.dart';
-import '../../widgets/trending_item.dart';
-
-
+import 'utils/restaurants.dart';
+import 'widgets/trending_item.dart';
 
 class Trending extends StatefulWidget {
   @override

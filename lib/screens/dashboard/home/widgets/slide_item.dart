@@ -1,6 +1,4 @@
-import 'package:cocada/screens/dashboard/Menu.dart';
-
-import '../screens/dashboard/details_page.dart';
+import 'package:cocada/screens/dashboard/home/Menu.dart';
 import 'package:flutter/material.dart';
 import '../utils/const.dart';
 

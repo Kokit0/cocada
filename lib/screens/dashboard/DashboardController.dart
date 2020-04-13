@@ -1,7 +1,7 @@
 
-import 'package:cocada/screens/dashboard/dashboard.dart';
+import 'package:cocada/screens/dashboard/profile/UserPreferences.dart';
 
-import 'HomeScreen.dart';
+import 'home/HomeScreen.dart';
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

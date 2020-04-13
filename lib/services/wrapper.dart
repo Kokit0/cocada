@@ -1,4 +1,4 @@
-import 'package:cocada/screens/dashboard/HomeController.dart';
+import 'package:cocada/screens/dashboard/DashboardController.dart';
 import 'package:cocada/models/user.dart';
 import 'package:cocada/screens/login/authenticate.dart';
 import 'package:flutter/material.dart';

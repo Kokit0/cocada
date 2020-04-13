@@ -1,5 +1,5 @@
 
-import 'package:cocada/screens/dashboard/details_page.dart';
+import 'package:cocada/screens/dashboard/home/Details_page.dart';
 import 'package:flutter/material.dart';
 
 class Menu extends StatefulWidget {
