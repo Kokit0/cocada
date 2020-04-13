@@ -11,24 +11,24 @@ List categories = [
     "name": "Mexican",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/food2.jpeg"
+    "img": "assets/plate2.png"
   },
   {
     "name": "Nigerian",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/food3.jpeg"
+    "img": "assets/plate3.png"
   },
   {
     "name": "Spanish",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/food4.jpeg"
+    "img": "assets/plate2.png"
   },
   {
     "name": "Mexican",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/food5.jpeg"
+    "img": "assets/plate2.png"
   },
 ];

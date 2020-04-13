@@ -6,7 +6,7 @@ class TokitoPopup extends BeautifulPopupTemplate {
   TokitoPopup(this.options) : super(options);
 
   @override
-  final illustrationKey = 'assets/imgs/bg/mytemplate.png';
+  final illustrationKey = 'assets/images/bg/mytemplate.png';
   @override
   Color get primaryColor => options.primaryColor ?? Color(0xff000000); // The default primary color of the template is Colors.black.
   @override

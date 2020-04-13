@@ -15,7 +15,7 @@ class _SpaceSplashState extends State<SpaceSplash>
       vsync: this,
       child: Container(
         child: Image.asset(
-          "assets/imgs/bg/star_stroke.png",
+          "assets/images/bg/star_stroke.png",
           height: 100.0,
         ),
       ),

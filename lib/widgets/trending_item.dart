@@ -1,4 +1,4 @@
-import '../pages/dashboard/details_page.dart';
+import '../screens/dashboard/details_page.dart';
 import 'package:flutter/material.dart';
 import '../utils/const.dart';
 

@@ -1,7 +1,7 @@
 List restaurants = [
   {
-    "img": "assets/food4.jpeg",
-    "title": "Olé Olé Olé",
+    "img": "assets/food2.jpeg",
+    "title": "Olé Olé Olé by Valeria Manzano",
     "address": "Kuninga 1",
     "rating": "5.0"
   },

@@ -21,10 +21,10 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
   // Particles
   ParticleType _particleType = ParticleType.Image;
 // assets/imgs/bg assets/imgs/bg
-  Image _image = Image.asset('assets/imgs/bg/coco.png');
+  Image _image = Image.asset('assets/images/bg/coco.png');
 
   ParticleOptions particleOptions = ParticleOptions(
-    image: Image.asset('assets/imgs/bg/Coconut.png'),
+    image: Image.asset('assets/images/bg/Coconut.png'),
     baseColor: Colors.green,
     spawnOpacity: 0.0,
     opacityChangeRate: 0.20,
@@ -65,7 +65,7 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
           decoration: BoxDecoration(
             color: Colors.grey[800],
             image: DecorationImage(
-              image: AssetImage('assets/imgs/bg/bg.jpg'),
+              image: AssetImage('assets/images/bg/bg.jpg'),
               fit: BoxFit.cover,
               colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.6), BlendMode.dstATop),
             )
@@ -351,8 +351,8 @@ class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStat
           children: <Widget>[
             Row(
               children: <Widget>[
-                _buildImageSelector(Image.asset('assets/imgs/bg/star_stroke.png')),
-                _buildImageSelector(Image.asset('assets/imgs/bg/icy_logo.png')),
+                _buildImageSelector(Image.asset('assets/images/bg/star_stroke.png')),
+                _buildImageSelector(Image.asset('assets/images/bg/icy_logo.png')),
                 RaisedButton(
                   child: Text('Clipboard'),
                   onPressed: () {

@@ -1,4 +1,6 @@
-import '../pages/dashboard/details_page.dart';
+import 'package:cocada/screens/dashboard/Menu.dart';
+
+import '../screens/dashboard/details_page.dart';
 import 'package:flutter/material.dart';
 import '../utils/const.dart';
 
@@ -41,7 +43,7 @@ class _SlideItemState extends State<SlideItem> {
                   InkWell(
                   onTap: (){
                       Navigator.of(context).push((MaterialPageRoute(
-                        builder: (context) => DetailsPage()
+                        builder: (context) => Menu()
                   )));
                   },
                   child: Container(

@@ -29,6 +29,7 @@ dependencies:
   flutter_spinkit: ^4.0.0
   fancy_bottom_navigation: ^0.3.2
   cupertino_icons: ^0.1.2
+  stepper_touch: ^0.0.1
   flutter_icons:
 
 
@@ -58,20 +59,20 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
    - assets/
-   - assets/imgs/
    - assets/images/
-   - assets/imgs/bg/
-   - assets/imgs/logo/
+   - assets/images/bg/
+   - assets/images/logo/
+   - assets/images/food/
 
   fonts:
     - family: varela
       fonts:
-        - asset: assets/VarelaRound-Regular.ttf
+        - asset: assets/fonts/VarelaRound-Regular.ttf
     #       - asset: fonts/Schyler-Italic.ttf
     #         style: italic
     - family: nunito
       fonts:
-        - asset: assets/Nunito-Regular.ttf
-        - asset: assets/Nunito-Light.ttf
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Light.ttf
           weight: 300
 

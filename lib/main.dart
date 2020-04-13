@@ -1,5 +1,5 @@
 import 'package:cocada/models/user.dart';
-import 'package:cocada/pages/home/home.dart';
+import 'package:cocada/screens/home/home.dart';
 import 'package:cocada/services/auth.dart';
 import 'package:cocada/services/wrapper.dart';
 import 'package:flutter/material.dart';
