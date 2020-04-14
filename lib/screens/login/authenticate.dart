@@ -1,6 +1,6 @@
 
-import 'package:cocada/screens/home/home.dart';
-import 'package:cocada/screens/login/register.dart';
+import 'package:cocada/screens/login/BgA-Login-wrapper.dart';
+import 'package:cocada/screens/login/Register.dart';
 import 'package:cocada/screens/login/sign-in.dart';
 import 'package:flutter/material.dart';
 

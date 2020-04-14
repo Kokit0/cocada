@@ -6,16 +6,17 @@ import 'package:flutter/material.dart';
 
 import 'package:animated_background/animated_background.dart';
 import 'package:flutter/services.dart';
-class bgAnimatedPage extends StatefulWidget {
-  bgAnimatedPage({Key key, this.title}) : super(key: key);
+
+class BGAnimatedPage extends StatefulWidget {
+  BGAnimatedPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _bgAnimatedPageState createState() => new _bgAnimatedPageState();
+  _BGAnimatedPageState createState() => new _BGAnimatedPageState();
 }
 
-class _bgAnimatedPageState extends State<bgAnimatedPage> with TickerProviderStateMixin {
+class _BGAnimatedPageState extends State<BGAnimatedPage> with TickerProviderStateMixin {
   static const numBehaviours = 6;
 
   // Particles

@@ -13,10 +13,7 @@ const textInputDecoration = InputDecoration(
   ),
 );
 
-
-
-const textInputDecoration2 =  InputDecoration(
-                                    border: InputBorder.none,
-                                    hintStyle: TextStyle(
-                                    color: Colors.grey),
-                                );
+const textInputDecoration2 = InputDecoration(
+  border: InputBorder.none,
+  hintStyle: TextStyle(color: Colors.grey),
+);

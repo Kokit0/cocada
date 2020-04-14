@@ -1,10 +1,10 @@
 import 'package:cocada/services/auth.dart';
-import 'package:cocada/shared/widgets/bg_animation/bg_animation.dart';
-import 'package:cocada/shared/widgets/constants.dart';
-import 'package:cocada/shared/widgets/loading.dart';
+import 'package:cocada/screens/common/bg_animation/bg_animation.dart';
+import 'package:cocada/screens/common/constants.dart';
+import 'package:cocada/screens/common/loading.dart';
 import 'package:flutter/material.dart';
 
-import 'package:cocada/shared/animations/FadeAnimation.dart';
+import 'package:cocada/screens/login/animations/FadeAnimation.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class SignIn extends StatefulWidget {
@@ -36,7 +36,7 @@ class _SignInState extends State<SignIn> {
         body: SafeArea(
         child: Stack(
           children: <Widget>[
-            bgAnimatedPage(),
+            BGAnimatedPage(),
             Positioned.fill(
                 child:     SingleChildScrollView(
           child: Container(

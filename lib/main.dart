@@ -1,9 +1,7 @@
 import 'package:cocada/models/user.dart';
-import 'package:cocada/screens/home/home.dart';
 import 'package:cocada/services/auth.dart';
 import 'package:cocada/services/wrapper.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 
 import 'package:provider/provider.dart';
@@ -21,7 +19,6 @@ class Kokito extends StatelessWidget {
         theme: ThemeData(
          
           primarySwatch: Colors.red,
-
         ),
         home:Wrapper(), // Usamos un Wrapper para saber si el usuario está logeado o no
       ),
