@@ -1,4 +1,5 @@
 import 'package:cocada/models/user.dart';
+import 'package:cocada/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
@@ -53,6 +54,8 @@ class AuthService {
     try {
       AuthResult result = await _auth.createUserWithEmailAndPassword(email: email, password: password); 
       FirebaseUser user = result.user; 
+
+      await DatabaseService(uid: user.uid).updateUserData('Vegan', 'Fer', 100); 
       return _userFromFirebaseUser(user); 
       
     } catch (e) {
