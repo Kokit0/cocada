@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 const textInputDecoration = InputDecoration(
-  fillColor: Colors.red,
-  filled: true,
+  fillColor: Colors.grey,
+  filled: false,
   enabledBorder: OutlineInputBorder(
     borderSide: BorderSide(color: Colors.blue, width: 2),
     borderRadius: BorderRadius.all(Radius.circular(30)),

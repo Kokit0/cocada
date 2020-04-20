@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cocada/models/Restaurants.dart';
 import 'package:cocada/screens/dashboard/profile/UserList.dart';
+import 'package:cocada/screens/dashboard/profile/settings_form.dart';
 import 'package:cocada/services/auth.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,15 @@ class Dashboard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     void _showSettingsPanel() {
+      showModalBottomSheet(context: context, builder: (context) {
+        return Container(
+          padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 60.0),
+          child: SettingsForm(),
+        );
+      });
+    }
+
     return StreamProvider <List<Res>>.value
      (
        value: DatabaseService().res,
@@ -25,15 +35,20 @@ class Dashboard extends StatelessWidget {
             backgroundColor: Colors.brown[400],
             elevation: 0.0,
             actions: <Widget>[
-              FlatButton.icon(
-                icon: Icon(Icons.person),
-                label: Text('logout'),
-                onPressed: () async {
-                  await _auth.signOut();
-                },
-              ),
-            ],
-          ), 
+            FlatButton.icon(
+              icon: Icon(Icons.person),
+              label: Text('logout'),
+              onPressed: () async {
+                await _auth.signOut();
+              },
+            ),
+            FlatButton.icon(
+              icon: Icon(Icons.settings),
+              label: Text('settings'),
+              onPressed: () => _showSettingsPanel(),
+            )
+          ],
+        ), 
           body: UserList() ,
         ),
       ),

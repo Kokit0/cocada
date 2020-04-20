@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cocada/models/Restaurants.dart';
 import 'package:cocada/models/Restaurants.dart';
 import 'package:cocada/models/Restaurants.dart';
+import 'package:cocada/models/user.dart';
 
 class DatabaseService {
   final String uid;
@@ -60,4 +61,23 @@ List<Res> _restListFromSnapshot(QuerySnapshot snapshot) {
   Stream<QuerySnapshot> get users {
     return exampleCollection.snapshots();
   }
+
+  
+   // user data from snapshots
+  UserData _userDataFromSnapshot(DocumentSnapshot snapshot) {
+    return UserData(
+      uid: uid,
+      name: snapshot.data['name'],
+      sugars: snapshot.data['sugars'],
+      strength: snapshot.data['strength']
+    );
+  }
+
+
+  // get user doc stream
+  Stream<UserData> get userData {
+    return exampleCollection.document(uid).snapshots()
+      .map(_userDataFromSnapshot);
+  }
+
 }

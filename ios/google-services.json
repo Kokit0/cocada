@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1004554392346",
+    "firebase_url": "https://kokito-d02c3.firebaseio.com",
+    "project_id": "kokito-d02c3",
+    "storage_bucket": "kokito-d02c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004554392346:android:6d487f2fc72cdc1ad9d2a3",
+        "android_client_info": {
+          "package_name": "com.kokito.cocada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004554392346-4ff86sebtquj156lfpj8d0l8nkj6u942.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxab9qunFKXTBks6fR4KyPC086ZQK1pS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004554392346-4ff86sebtquj156lfpj8d0l8nkj6u942.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1004554392346-5ajdpvt38sfindvnj2aemar53mbc4cm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kokito.cocada"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
